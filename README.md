@@ -44,10 +44,12 @@ Once the service is up and running, you can access it at `http://localhost:3000`
 ### Project Structure
 
 - **main.go**: Entry point of the application.
-- **handlers.go**: Contains HTTP handlers.
-- **logger.go**: Logging setup and middleware.
+- **service.go**: Creating service for application.
+- **types.go**: Creating for json type data.
+- **api.go**: Starting listener and server service.
+- **logging.go**: Logging setup and middleware.
 - **Dockerfile**: Instructions to build the Docker image.
-- **docker-compose.yml**: Docker Compose configuration.
+- **compose.yml**: Docker Compose configuration.
 
 ## Docker
 
