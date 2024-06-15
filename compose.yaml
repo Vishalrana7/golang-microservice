@@ -12,6 +12,7 @@ services:
     build:
       context: .
       target: final
+    image: visualzero007/my-go-repo:latest
     ports:
       - 3000:3000
 
