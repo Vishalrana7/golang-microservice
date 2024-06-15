@@ -39,4 +39,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and push Docker images
-        run: docker compose --build
+        run: docker compose build
