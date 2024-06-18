@@ -1,5 +1,7 @@
 # Cat-Fact Microservice with Logging
 
+[![CI for Go-lang Microservice](https://github.com/Vishalrana7/golang-microservice/actions/workflows/myworkflow.yaml/badge.svg)](https://github.com/Vishalrana7/golang-microservice/actions/workflows/myworkflow.yaml)
+
 ## Overview
 
 This project is a Go-based microservice that provides cat facts. The service includes logging functionality and is containerized using Docker. The project uses GitHub Actions for continuous integration, ensuring code quality through linting and testing, and automatically building and pushing Docker images to DockerHub.
